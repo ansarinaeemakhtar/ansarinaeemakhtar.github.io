@@ -20,9 +20,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-fetch('https://raw.githubusercontent.com/ansarinaeemakhtar/resume-1/master/resume.json')
-// .then below runs when the remote server responds
-.then(response => response.json())
-.then(resume => console.log(resume.basics.name));
+// fetch('https://raw.githubusercontent.com/ansarinaeemakhtar/resume-1/master/resume.json')
+// // .then below runs when the remote server responds
+// .then(response => response.json())
+// .then(resume => console.log(resume.basics.name));
 
-document.write(resume);
+// document.write(resume);
